@@ -1,11 +1,13 @@
 # [Python Challenge](http://www.pythonchallenge.com)
 所有解题代码，皆可由标题跳转得到
 ## [Level 0](/code/level_0.py)
+![Level 0.gif](/image/level_0.jpg)
 看提示图片中为2**38，计算值为274877906944。  
 Hint: try to change the URL address.  
 下一关地址：http://www.pythonchallenge.com/pc/def/274877906944.html
 
 ## [Level 1](/code/level_1.py)
+![Level 1.gif](/image/level_1.jpg)
 Hint 1：K-&gt;M  O-&gt;Q  E-&gt;G  
 由Hint 1可知是位移计算，都是位移两位
 Hint 2：g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.
