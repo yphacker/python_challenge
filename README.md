@@ -1,7 +1,6 @@
 # [Python Challenge](http://www.pythonchallenge.com)
 所有解题代码，皆可由标题跳转得到
-[toc]
-## [Level 0](#code/level_0.py)
+## [Level 0](/code/level_0.py)
 看提示图片中为2**38，计算值为274877906944。  
 Hint: try to change the URL address.  
 下一关地址：http://www.pythonchallenge.com/pc/def/274877906944.html
