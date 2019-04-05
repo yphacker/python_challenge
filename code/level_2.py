@@ -6,8 +6,8 @@ import requests
 import collections
 
 url = r'http://www.pythonchallenge.com/pc/def/ocr.html'
-content = requests.get(url).content
-m = re.findall('<!--([^>]+)-->', content.decode('utf-8'))
+content = requests.get(url).content.decode('utf-8')
+m = re.findall('<!--([^>]+)-->', content)
 
 
 def count_str(s):
