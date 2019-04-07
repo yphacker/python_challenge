@@ -31,7 +31,8 @@ Hint: 一个小字母，两边各有三个保镖
 根据[level2](#level2)可知，也是从网页源代码中找到这些字符  
 [代码](/code/level_3.py)  
 得到的结果为：linkedlist
-访问：http://www.pythonchallenge.com/pc/def/linkedlist.html，得到linkedlist.php    
+访问：http://www.pythonchallenge.com/pc/def/linkedlist.html  
+得到linkedlist.php    
 下一关地址：http://www.pythonchallenge.com/pc/def/linkedlist.php
 
 ## [Level 4](/code/level_4.py)  
@@ -42,7 +43,7 @@ Hint: 一个小字母，两边各有三个保镖
 又根据[level2](#level2)可知，可以从网页源代码获取信息：urllib may help. DON'T TRY ALL NOTHINGS, since it will never end. 400 times is more than enough.
 因此，可猜测就是大约这样一直访问400次左右，才能得到下一关的页面  
 [代码](/code/level_4.py)  
-得到的结果为：peak.html（亲测，远不到400次）
+得到的结果为：peak.html（亲测，远不到400次）  
 下一关地址：http://www.pythonchallenge.com/pc/def/peak.html
 
 ## [Level 5](/code/level_5.py)  
@@ -52,7 +53,7 @@ Hint: 一个小字母，两边各有三个保镖
 可知需要用pickle处理数据  
 [代码](/code/level_5.py)  
 用pickle处理后，得到一堆元组，第一个元素不是' '就是'#'，猜测第二个元素就是其第一个元素的个数  
-得到的结果为：channel
+得到的结果为：channel  
 下一关地址：http://www.pythonchallenge.com/pc/def/channel.html
 
 ## [Level 6](/code/level_6.py)  
@@ -76,4 +77,4 @@ hint2: answer is inside the zip
 下一关地址：http://www.pythonchallenge.com/pc/def/oxygen.html
 
 ## [Level 7](/code/level_7.py)  
-![Level 7.gif](/image/level_7.jpg)  
+![Level 7.gif](/image/level_7.png)  
