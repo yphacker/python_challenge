@@ -78,3 +78,26 @@ hint2: answer is inside the zip
 
 ## [Level 7](/code/level_7.py)  
 ![Level 7.gif](/image/level_7.png)  
+Hint:这次网页源代码没有东西了，但是图片有一条灰色区域，只能从这个地方入手了  
+[代码](/code/level_7.py)  
+把中间的灰色区域转成ASCII码，可发现信息如下：
+```
+sssssmmmmmmmaaaaaaarrrrrrrttttttt       ggggggguuuuuuuyyyyyyy,,,,,,,       yyyyyyyooooooouuuuuuu       mmmmmmmaaaaaaadddddddeeeeeee       iiiiiiittttttt.......       ttttttthhhhhhheeeeeee       nnnnnnneeeeeeexxxxxxxttttttt       llllllleeeeeeevvvvvvveeeeeeelllllll       iiiiiiisssssss       [[[[[[[111111100000005555555,,,,,,,       111111111111110000000,,,,,,,       111111111111116666666,,,,,,,       111111100000001111111,,,,,,,       111111100000003333333,,,,,,,       111111111111114444444,,,,,,,       111111100000005555555,,,,,,,       111111111111116666666,,,,,,,       111111122222221111111]]]]]]]]rpngbemkejlfca^_ba_ac
+```
+对上面信息经过处理后，可得到：smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]  
+继续将[105, 110, 116, 101, 103, 114, 105, 116, 121]转换成ASCII码后  
+得到的结果为：integrity  
+下一关地址：http://www.pythonchallenge.com/pc/def/integrity.html
+
+## [Level 8](/code/level_8.py)  
+![Level 8.gif](/image/level_8.jpg)  
+Hint1:点击图片蜜蜂会弹出一个要求输出用户名和密码的对话框  
+Hint2:网页源代码中有un和ps两行注释，结合Hint1可知为：username和password  
+仔细看这两个字符串，可发现这两个字符串的前缀都是BZ，可知应该用bz2去处理  
+[代码](/code/level_8.py)  
+得到的结果为：username: 'huge', password: 'file'  
+输入上面结果跳转到下一关  
+下一关地址：http://www.pythonchallenge.com/pc/return/good.html
+
+## [Level 9](/code/level_9.py)  
+![Level 9.gif](/image/level_9.jpg)    
