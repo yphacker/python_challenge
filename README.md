@@ -24,7 +24,7 @@ Hint 2：g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bm
 由于稀有字符是有顺序的，所以我使用了有序字典，进行存储字符跟出现次数，得到的结果为：equality  
 下一关地址：http://www.pythonchallenge.com/pc/def/equality.html
 
-## [Level 3](/code/level_3.py)  
+## [Level 3](/code/level_3.py)
 ![Level 3.gif](/image/level_3.jpg)  
 Hint: 一个小字母，两边各有三个保镖  
 意思就是要找到这么一个小写字母，两边都是三个大写字母，而且两边都要是小写字母，即：xXXXxXXXx  
@@ -35,7 +35,7 @@ Hint: 一个小字母，两边各有三个保镖
 得到linkedlist.php    
 下一关地址：http://www.pythonchallenge.com/pc/def/linkedlist.php
 
-## [Level 4](/code/level_4.py)  
+## [Level 4](/code/level_4.py)
 ![Level 4.gif](/image/level_4.jpg)  
 网页标题为follow the chain  
 然后点击图片跳转到页面http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345， 显示：and the next nothing is 44827  
@@ -46,7 +46,7 @@ Hint: 一个小字母，两边各有三个保镖
 得到的结果为：peak.html（亲测，远不到400次）  
 下一关地址：http://www.pythonchallenge.com/pc/def/peak.html
 
-## [Level 5](/code/level_5.py)  
+## [Level 5](/code/level_5.py)
 ![Level 5.gif](/image/level_5.jpg)  
 根据前面的提示，一般又是从网页源代码入手，得到http://www.pythonchallenge.com/pc/def/banner.p数据  
 然后根据Hint: pronounce it  
@@ -56,7 +56,7 @@ Hint: 一个小字母，两边各有三个保镖
 得到的结果为：channel  
 下一关地址：http://www.pythonchallenge.com/pc/def/channel.html
 
-## [Level 6](/code/level_6.py)  
+## [Level 6](/code/level_6.py)
 ![Level 6.gif](/image/level_6.jpg)  
 Hint：查看网页源代码，发现有'zip'注释  
 然后将channel.html改为channel.zip，发现有channel.zip文件  
@@ -76,7 +76,7 @@ hint2: answer is inside the zip
 然后又回去看comment里的字母是由'OXYGEN'组成的，因此将hockey改为oxygen得带下一关地址  
 下一关地址：http://www.pythonchallenge.com/pc/def/oxygen.html
 
-## [Level 7](/code/level_7.py)  
+## [Level 7](/code/level_7.py)
 ![Level 7.gif](/image/level_7.png)  
 Hint:这次网页源代码没有东西了，但是图片有一条灰色区域，只能从这个地方入手了  
 [代码](/code/level_7.py)  
@@ -89,15 +89,39 @@ sssssmmmmmmmaaaaaaarrrrrrrttttttt       ggggggguuuuuuuyyyyyyy,,,,,,,       yyyyy
 得到的结果为：integrity  
 下一关地址：http://www.pythonchallenge.com/pc/def/integrity.html
 
-## [Level 8](/code/level_8.py)  
+## [Level 8](/code/level_8.py)
 ![Level 8.gif](/image/level_8.jpg)  
 Hint1:点击图片蜜蜂会弹出一个要求输出用户名和密码的对话框  
 Hint2:网页源代码中有un和ps两行注释，结合Hint1可知为：username和password  
 仔细看这两个字符串，可发现这两个字符串的前缀都是BZ，可知应该用bz2去处理  
 [代码](/code/level_8.py)  
 得到的结果为：username: 'huge', password: 'file'  
-输入上面结果跳转到下一关  
+输入上面的结果跳转到下一关  
 下一关地址：http://www.pythonchallenge.com/pc/return/good.html
 
-## [Level 9](/code/level_9.py)  
-![Level 9.gif](/image/level_9.jpg)    
+## [Level 9](/code/level_9.py)
+![Level 9.gif](/image/level_9.jpg)  
+Hint1:网页title为：connect the dots  
+Hint2:网页源代码有first+second=?和first，second的注释
+可知应该是把这些点连起来  
+[代码](/code/level_9.py)  
+得到一张牛的图片，如果猜测是一直母牛的话  hmm. it's a male.
+访问http://www.pythonchallenge.com/pc/return/cow.html  
+得到提示：hmm. it's a male.最终结果就是：bull  
+下一关地址：http://www.pythonchallenge.com/pc/return/bull.html
+
+## [Level 10](/code/level_10.py)
+![Level 10.gif](/image/level_10.jpg)  
+Hint1:len(a[30]) = ?  
+Hint2:网页源代码有一个超链接，跳转可得到a = [1, 11, 21, 1211, 111221,   
+由上面两个提示可知，应该是一个找规律的题目  
+a[0]为1， 表示1个1，得到a[1]=11；   
+a[1]为11，表示2个1，得到a[2]=21；  
+a[2]为21，表示1个2，2个1，得到a[3]=1221；  
+以此类推  
+[代码](/code/level_10.py)  
+得到的结果为：5808  
+下一关地址：http://www.pythonchallenge.com/pc/return/5808.html
+
+## [Level 11](/code/level_11.py)
+![Level 11.gif](/image/level_11.jpg)  
