@@ -125,3 +125,23 @@ a[2]为21，表示1个2，2个1，得到a[3]=1221；
 
 ## [Level 11](/code/level_11.py)
 ![Level 11.gif](/image/level_11.jpg)  
+Hint1:网页title为：odd even  
+Hint2:一张模糊的图片  
+猜测可能这张模糊的图片由两张其他的图片合成的，而合成规律就是奇偶  
+[代码](/code/level_11.py)  
+可以发现even图上有一个模糊的单词evil  
+下一关地址：http://www.pythonchallenge.com/pc/return/evil.html
+
+## [Level 12](/code/level_12.py)
+![Level 12.gif](/image/level_12.jpg)  
+Hint:源代码很干净，不像之前那样会有很明显的提示，但是细心的人很快就会发现，网页为evil.html,但是图片却是evil1.jpg，
+不禁让人想到会不会还有其他的图片，于是将http://www.pythonchallenge.com/pc/return/evil1.jpg
+改为http://www.pythonchallenge.com/pc/return/evil2.jpg，会显示not jpg - -.gfx的图片,于是改为http://www.pythonchallenge.com/pc/return/evil1.gfx
+再次访问，得到evil2.gfx二进制文件  
+再结合evil1.jpg图片里有5堆小卡片，大概就可以猜测到，将得到的gfx文件按照发牌的方式分成5分  
+[代码](/code/level_12.py)  
+得到结果为：disproportional
+下一关地址：http://www.pythonchallenge.com/pc/return/disproportional.html
+
+## [Level 13](/code/level_13.py)
+![Level 13.gif](/image/level_13.jpg)  
